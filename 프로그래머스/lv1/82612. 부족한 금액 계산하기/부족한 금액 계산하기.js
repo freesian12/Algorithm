@@ -6,5 +6,5 @@ function solution(price, money, count) {
             sum += i*price
         }
     
-    return sum > money ? sum-money : sum<=money ? 0 : -1;
+    return sum > money ? sum-money :0 ;
 }
